@@ -10,4 +10,13 @@ closeElem.addEventListener('click', () => {
     menu.classList.remove('active');
 });
 
+const menuLink = document.querySelectorAll('.menu__link');
+
+menuLink.forEach(element => {
+    element.addEventListener('click', () => {
+        menu.classList.remove('active');
+    })
+});
+
+
 
