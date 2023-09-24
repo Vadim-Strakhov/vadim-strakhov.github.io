@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
-  "homepage": "https://vadim-strakhov.github.io/",
+  "homepage": "https://vadim-strakhov.github.io",
   "scripts": {
     "deploy": "gh-pages -d dist"
   },
