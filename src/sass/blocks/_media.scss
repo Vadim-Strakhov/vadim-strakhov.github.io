@@ -33,7 +33,7 @@
             grid-auto-rows: 280px;
             justify-content: space-around;
             row-gap: 35px;
-            .horizonal, .vertical {
+            .horizontal, .vertical {
                 grid-row: unset;
                 grid-column: unset;
             }
@@ -162,7 +162,7 @@
     }
     .about {
         &__wrapper {
-            grid-template: 600px auto auto / 1fr;
+            grid-template: auto auto auto / 1fr;
         }
         &__skills {
             grid-template-columns: 1fr;
