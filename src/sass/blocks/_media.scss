@@ -14,7 +14,7 @@
         }
         &__skills {
             column-gap: 20px;
-            grid-template: repeat(2,minmax(115px,auto))/repeat(2,250px);
+            grid-template: repeat(2, minmax(115px, auto)) / repeat(2, 250px);
             &-item {
                 grid-template-columns: 40px 195px;
                 column-gap: 15px;
@@ -29,14 +29,7 @@
     }
     .portfolio {
         &__wrapper {
-            grid-template-columns: repeat(auto-fit, 280px);
-            grid-auto-rows: 280px;
-            justify-content: space-around;
             row-gap: 35px;
-            .horizontal, .vertical {
-                grid-row: unset;
-                grid-column: unset;
-            }
         }
     }
 }
@@ -61,7 +54,7 @@
         }
         &__skills {
             grid-template-columns: 380px;
-            grid-auto-rows: minmax(115px,auto);
+            grid-auto-rows: minmax(115px, auto);
             &-item {
                 grid-template-columns: 40px 320px;
                 column-gap: 20px;
