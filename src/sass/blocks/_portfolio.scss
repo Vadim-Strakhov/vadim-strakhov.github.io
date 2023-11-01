@@ -3,8 +3,8 @@
     &__wrapper {
         margin-top: 60px;
         display: grid;
-        grid-template: repeat(auto-fill, 1fr);
-        gap: 5px;
+        grid-template: repeat(3, 1fr) / repeat(2, auto);
+        gap: 10px;
     }
     &__item {
         img {
